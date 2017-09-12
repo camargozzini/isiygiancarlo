@@ -184,10 +184,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-a:hover, a:focus { color: #1BC799; text-decoration: none; }
+a:hover, a:focus { color: #1bb7c7; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 18px; color: #353535; text-transform: uppercase; font-weight: bold; }
-h2::after { content: " "; border: solid 2px #1BC799; display: block; width: 35px; margin: 25px auto; }
+h2::after { content: " "; border: solid 2px #1bb7c7; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 20px; }
 .dark-bg { background: #f3f5f8;
   padding-top: 50px;
@@ -197,7 +197,7 @@ h2::after { content: " "; border: solid 2px #1BC799; display: block; width: 35px
 .light-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0;
   min-height: 226px;
 }
-.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #1BC799; -moz-box-shadow: 0px 3px 0px 0px #1BC799; box-shadow: 0px 3px 0px 0px #1BC799; }
+.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #1bb7c7; -moz-box-shadow: 0px 3px 0px 0px #1bb7c7; box-shadow: 0px 3px 0px 0px #1bb7c7; }
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
@@ -247,18 +247,13 @@ Hero
   font-size: 40px;
   letter-spacing: 12px;
   margin: 10px;
-  color: #1BC799;
+  color: #1bb7c7;
 }
 
 .hero h1 span { color: #a1a9b0; display: inline-block; }
-.hero p {
-  letter-spacing: 1px;
-  color: #FFFFFF;
-  font-size: 23px;
-  line-height: 30px
-}
+
 .learn-more-btn {
-  background: rgba(61, 201, 179, 1);
+  background: #1bb7c7;
   padding: 13px 16px;
   font-size: 18px;
   border-radius: 35px;
@@ -268,18 +263,6 @@ Hero
   color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block;
   margin: 60px 0 0; font-weight: bold; }
 
-  .btn {
-  background: rgba(61, 201, 179, 1);
-  padding: 4px 13px;
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -o-border-radius: 20px;
-  color: #fff;
-  margin: 5px;
-}
-
-.learn-more-btn:hover, .learn-more-btn:focus, .btn:hover, .btn:focus  { background: rgba(61, 201, 179, 0.6); color: #fff; }
 /* ==========================================================================
 Intro
 ========================================================================== */
@@ -290,8 +273,8 @@ h1.arrow { font-size: 25px; text-transform: uppercase; color: #353535; letter-sp
 Features
 ========================================================================== */
 .team-wrapper, #portfolioSlider{ margin: 70px 0 0; }
-.shadow { text-shadow: rgb(9, 181, 135) 1px 1px, rgb(9, 181, 135) 2px 2px, rgb(9, 181, 135) 3px 3px, rgb(9, 181, 135) 4px 4px, rgb(9, 181, 135) 5px 5px, rgb(9, 181, 135) 6px 6px, rgb(9, 181, 135) 7px 7px, rgb(9, 181, 135) 8px 8px, rgb(9, 181, 135) 9px 9px, rgb(9, 181, 135) 10px 10px, rgb(9, 181, 135) 11px 11px, rgb(9, 181, 135) 12px 12px, rgb(10, 182, 136) 13px 13px, rgb(11, 183, 137) 14px 14px, rgb(12, 184, 138) 15px 15px, rgb(13, 185, 139) 16px 16px, rgb(14, 186, 140) 17px 17px, rgb(15, 187, 141) 18px 18px, rgb(16, 188, 142) 19px 19px, rgb(17, 189, 143) 20px 20px, rgb(18, 190, 144) 21px 21px, rgb(19, 191, 145) 22px 22px, rgb(20, 192, 146) 23px 23px, rgb(21, 193, 147) 24px 24px, rgb(22, 194, 148) 25px 25px, rgb(23, 195, 149) 26px 26px, rgb(24, 196, 150) 27px 27px, rgb(25, 197, 151) 28px 28px, rgb(26, 198, 152) 29px 29px, rgb(27, 199, 153) 30px 30px; }
-.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #1BC799; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
+
+.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #1bb7c7; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 
 section#features {
 background: #FFF;
@@ -360,7 +343,7 @@ CTA
 ========================================================================== */
 .ignite-cta { background-color: #242830; padding: 70px 0; }
 .ignite-btn { display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
-.ignite-btn:hover, .ignite-btn:focus { color: #1BC799; border: solid 1px #1BC799; }
+.ignite-btn:hover, .ignite-btn:focus { color: #1bb7c7; border: solid 1px #1bb7c7; }
 /* ==========================================================================
 Team
 ========================================================================== */
@@ -369,7 +352,7 @@ ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
 .social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #242830; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
-.social-btn:hover, .social-btn:focus { background: #1BC799; color: #fff; }
+.social-btn:hover, .social-btn:focus { background: #1bb7c7; color: #fff; }
 .social { margin-top: 25px }
 /* ==========================================================================
 Contact
@@ -378,7 +361,7 @@ Contact
 .up-btn:hover, up-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
 .contact-details { margin: 0; }
 .contact-details h2 { font-size: 20px; }
-.contact-details h2 span { display: block; color: #1BC799; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
+.contact-details h2 span { display: block; color: #1bb7c7; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
 .contact-wrap { position: relative; }
 
 .dark-bg h1 {

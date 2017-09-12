@@ -1,8 +1,6 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
+---
+---
+@import "variables";
 
 /* Global Reset */
 * {
@@ -28,6 +26,28 @@ p { margin: 1em 0; }
 a         { color: #00a; }
 a:hover   { color: #000; }
 
+.btn {
+  background: $main;
+  padding: 4px 13px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: #fff;
+  margin: 5px;
+}
+
+.learn-more-btn:hover, .learn-more-btn:focus, .btn:hover, .btn:focus  {
+  background: darken($main, 5%);
+  color: white!important;
+}
+
+// Shadow
+
+// .shadow { text-shadow: rgb(20, 153, 167) 1px 1px, rgb(20, 153, 167) 2px 2px, rgb(20, 153, 167) 3px 3px, rgb(20, 153, 167) 4px 4px, rgb(20, 153, 167) 5px 5px, rgb(20, 153, 167) 6px 6px, rgb(20, 153, 167) 7px 7px, rgb(20, 153, 167) 8px 8px, rgb(20, 153, 167) 9px 9px, rgb(20, 153, 167) 10px 10px, rgb(20, 153, 167) 11px 11px, rgb(20, 153, 167) 12px 12px, rgb(21, 154, 168) 13px 13px, rgb(22, 155, 169) 14px 14px, rgb(23, 156, 170) 15px 15px, rgb(24, 157, 171) 16px 16px, rgb(25, 158, 172) 17px 17px, rgb(26, 159, 173) 18px 18px, rgb(27, 160, 174) 19px 19px, rgb(28, 161, 175) 20px 20px, rgb(29, 162, 176) 21px 21px, rgb(30, 163, 177) 22px 22px, rgb(31, 164, 178) 23px 23px, rgb(32, 165, 179) 24px 24px, rgb(22, 194, 148) 25px 25px, rgb(23, 195, 149) 26px 26px, rgb(24, 196, 150) 27px 27px, rgb(25, 197, 151) 28px 28px, rgb(26, 198, 152) 29px 29px, rgb(27, 199, 153) 30px 30px; }
+
+.shadow { text-shadow: darken($main, 7%) 1px 1px, darken($main, 7%) 2px 2px, darken($main, 6.5%) 3px 3px, darken($main, 6.5%) 4px 4px, darken($main, 6%) 5px 5px, darken($main, 6%) 6px 6px, darken($main, 5.5%) 7px 7px, darken($main, 5.5%) 8px 8px, darken($main, 5%) 9px 9px, darken($main, 5%) 10px 10px, darken($main, 4.5%) 11px 11px, darken($main, 4.5%) 12px 12px, darken($main, 4%) 13px 13px, darken($main, 4%) 14px 14px, darken($main, 3.5%) 15px 15px, darken($main, 3.5%) 16px 16px, darken($main, 3%) 17px 17px, darken($main, 3%) 18px 18px, darken($main, 2.5%) 19px 19px, darken($main, 2.5%) 20px 20px, darken($main, 2%) 21px 21px, darken($main, 2%) 22px 22px, darken($main, 1.5%) 23px 23px, darken($main, 1.5%) 24px 24px, darken($main, 1%) 25px 25px, darken($main, 1%) 26px 26px, darken($main, 0.5%) 27px 27px, darken($main, 0.5%) 28px 28px, darken($main, 0%) 29px 29px, darken($main, 0%) 30px 30px; }
+
 /*****************************************************************************/
 /*
 /* Home
@@ -48,11 +68,14 @@ a:hover   { color: #000; }
   font-size: 80%;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
+// Hero
+
+.hero p {
+  letter-spacing: 1px;
+  font-size: 23px;
+  line-height: 30px;
+	color: $gray;
+}
 
 .site {
   font-size: 115%;
