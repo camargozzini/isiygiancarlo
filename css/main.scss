@@ -221,6 +221,10 @@ li.ss-choice-item {
   background: #fff;
 }
 
+html:not([style-scope]):not(.style-scope).freebird, body:not([style-scope]):not(.style-scope).freebirdLightBackground {
+    background-color: rgba(225, 245, 254, 0);
+}
+
 /*REGALOS*/
 
 .progress {
