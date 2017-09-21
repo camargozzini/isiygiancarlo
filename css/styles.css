@@ -363,7 +363,11 @@ Contact
 .contact-details { margin: 0; }
 .contact-details h2 { font-size: 20px; }
 .contact-details h2 span { display: block; color: #1bb7c7; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
-.contact-wrap { position: relative; }
+.contact-wrap {
+    position: relative;
+    padding: 50px 0;
+    margin-bottom: 90px;
+}
 
 .dark-bg h1 {
   margin-top: 60px;

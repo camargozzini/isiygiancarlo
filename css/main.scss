@@ -17,7 +17,17 @@ body {
   text-align: center;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
 h1 { margin-bottom: 1em; }
+
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 22px;
+  font-weight: 600
+}
 
 p { margin: 1em 0; }
 
@@ -240,7 +250,7 @@ html:not([style-scope]):not(.style-scope).freebird, body:not([style-scope]):not(
   line-height: 40px;
 }
 
-.fadeInUp {
+.regalos .fadeInUp {
   height: 490px;
 }
 
@@ -248,7 +258,7 @@ html:not([style-scope]):not(.style-scope).freebird, body:not([style-scope]):not(
   height: inherit;
 }
 
-.fadeInUp p {
+.regalos .fadeInUp p {
     margin: -25px 0 16px 0;
     color: #BDBDBD;
 }
