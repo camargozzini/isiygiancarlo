@@ -246,7 +246,7 @@ Hero
 .hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
 .hero h1 {
   font-size: 40px;
-  letter-spacing: 12px;
+  letter-spacing: 3px;
   margin: 10px;
   color: #1bb7c7;
 }
